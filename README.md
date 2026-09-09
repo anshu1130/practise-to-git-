@@ -66,6 +66,7 @@ You’re done when you can confidently say:
 ---
 
 ## Notes
+I am learning how to use branches and pull requests.
 
 - This repository's content is completely fake. Most content in the repository was generated using AI and is not meant to be used. The respository serves to be cloned and used to teach git commands.
 - This repository is used for VECTR modules associated with [nebraskamatrix.com/vectr](nebraskamatrix.com/vectr)
