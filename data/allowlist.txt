@@ -1,0 +1,28 @@
+# allowlist.txt
+#
+# Purpose:
+#   Known-good domains and services that commonly appear in alerts.
+#   Use this list to reduce noise during triage (do not treat as "never malicious").
+#
+# Format:
+#   One entry per line. Domains only (no scheme). Keep entries lowercase.
+
+microsoft.com
+office.com
+outlook.com
+live.com
+okta.com
+github.com
+amazonaws.com
+cloudfront.net
+google.com
+gstatic.com
+
+# Common security tooling / update services (examples)
+windowsupdate.com
+digicert.com
+letsencrypt.org
+
+# Notes:
+# - If you add an entry, include justification in the PR description.
+# - Do not allowlist shorteners (bit.ly, tinyurl) or newly registered domains.

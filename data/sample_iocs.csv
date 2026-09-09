@@ -1,0 +1,15 @@
+type,value,source,confidence,notes
+domain,login-microsoft-secure.example,phish-report,low,Lookalike login page (training domain)
+url,https://login-microsoft-secure.example/auth,phish-report,low,Credential harvesting URL (do not visit)
+ip,203.0.113.50,fw-alert,medium,Observed outbound connections from host WS-014 (example range)
+ip,198.51.100.23,edr-detection,medium,Suspected C2 beacon destination (example range)
+sha256,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,edr-detection,high,Quarantined file hash (placeholder)
+sha256,bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,manual-analysis,medium,Attachment sample (placeholder)
+domain,cdn-assets-login.example,manual-analysis,medium,Asset host associated with phishing kit (training domain)
+email,finance-team@example.com,bec-investigation,low,Spoofed sender observed in BEC lure (training)
+url,https://example.com/invoice/48291,bec-investigation,low,Link included in payment lure (benign example)
+process,powershell.exe,edr-detection,low,Seen in many cases; validate command line before action
+file,invoice_2026.pdf.exe,mail-gateway,high,Double-extension attachment pattern
+domain,okta.com,baseline,high,Common legitimate IdP domain (baseline reference)
+domain,microsoft.com,baseline,high,Common legitimate domain (baseline reference)
+ip,192.0.2.10,baseline,high,Internal test IP (example range)

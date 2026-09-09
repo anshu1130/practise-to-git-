@@ -1,0 +1,17 @@
+# ioc_allowlist.txt (Conflict Practice)
+#
+# This file exists ONLY to manufacture a predictable merge conflict during training.
+# Real teams often maintain shared allowlists/denylists and conflicts happen naturally.
+#
+# Lab rule:
+#   Edit ONLY the line under "CONFLICT_ZONE" when instructed.
+
+# Baseline allowlist entries (examples)
+microsoft.com
+okta.com
+github.com
+
+# CONFLICT_ZONE (edit the next line only)
+REPLACE_ME
+
+# End of file
